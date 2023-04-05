@@ -1,0 +1,17 @@
+.dark-mode-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  font-size: 24px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    color: #666;
+  }
+
+  &.dark {
+    color: #f5c518;
+  }
+}
